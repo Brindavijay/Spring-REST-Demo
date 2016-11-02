@@ -25,7 +25,7 @@ public class GreetingController {
         System.out.println(request.getRequestURL());
         System.out.println(request.getRequestURI());
 
-        return new Greeting(id, content, gender);
+        return new Greeting(id, content, gendr);
     }
 
 
